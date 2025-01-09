@@ -6,4 +6,5 @@ export default defineNuxtConfig({
     port: 8020,
   },
   modules: ['@unocss/nuxt', '@nuxt/icon', 'nuxt-lodash', '@element-plus/nuxt'],
+  plugins: ['~/plugins/tools'],
 })
