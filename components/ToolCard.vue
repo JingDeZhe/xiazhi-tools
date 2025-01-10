@@ -1,8 +1,10 @@
 <template>
-  <div class="tool-card" @click="onClick">
-    <h3>{{ title }}</h3>
+  <el-card @click="onClick" shadow="hover">
+    <template #header>
+      <span>{{ title }}</span>
+    </template>
     <p>{{ description }}</p>
-  </div>
+  </el-card>
 </template>
 
 <script setup lang="ts">

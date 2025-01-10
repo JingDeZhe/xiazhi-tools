@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <ToolList :tools="tools" @select="selectGroup" />
+  <div class="grid grid-cols-[300px_1fr] gap-1">
     <div class="tool-grid">
       <ToolCard
         v-for="tool in filteredTools"
