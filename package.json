@@ -20,8 +20,6 @@
     "@nuxt/icon": "^1.10.3",
     "@types/uuid": "^10.0.0",
     "@unocss/nuxt": "^0.65.4",
-    "@unocss/transformer-compile-class": "^0.65.4",
-    "@unocss/transformer-directives": "^0.65.4",
     "@vueuse/core": "^12.3.0",
     "@vueuse/nuxt": "^12.3.0",
     "dayjs": "^1.11.13",

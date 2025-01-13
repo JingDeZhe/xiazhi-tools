@@ -5,3 +5,10 @@ body {
 .all-center {
   --at-apply: flex justify-center items-center;
 }
+
+.common-card {
+  --at-apply: p-3 rounded bg-zinc-100 dark:(bg-dark-500 text-slate-300) cursor-default hover:(bg-zinc-200 dark:(bg-dark-700)) transition;
+  &_title {
+    --at-apply: text-xl font-bold;
+  }
+}

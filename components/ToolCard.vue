@@ -1,10 +1,12 @@
 <template>
-  <el-card @click="onClick" shadow="hover">
-    <template #header>
+  <div @click="onClick" class="common-card">
+    <div class="common-card_title">
       <span>{{ title }}</span>
-    </template>
-    <p>{{ description }}</p>
-  </el-card>
+    </div>
+    <div>
+      <p>{{ description }}</p>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -32,13 +34,3 @@ const onClick = () => {
   emit('click')
 }
 </script>
-
-<style scoped>
-.tool-card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-</style>
